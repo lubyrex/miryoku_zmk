@@ -5,11 +5,11 @@
 
 #if !defined(ZMK_POINTING_DEFAULT_MOVE_VAL)
   #define ZMK_POINTING_DEFAULT_MOVE_VAL 1250
-endif
+#endif
 
 #if !defined(ZMK_POINTING_DEFAULT_SCRL_VAL)
   #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
-endif
+#endif
 
 #define U_MOUSE_MOVE_EXPONENT 1
 #define U_MOUSE_MOVE_TIME 1500
