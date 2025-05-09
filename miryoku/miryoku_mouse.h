@@ -11,12 +11,25 @@
   #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #endif
 
-#define U_MOUSE_MOVE_EXPONENT 1
-#define U_MOUSE_MOVE_TIME 1500
-#define U_MOUSE_MOVE_DELAY 0
-#define U_MOUSE_SCROLL_EXPONENT 1
-#define U_MOUSE_SCROLL_TIME 5000
-#define U_MOUSE_SCROLL_DELAY 0
+#if !defined(U_MOUSE_MOVE_EXPONENT)
+    #define U_MOUSE_MOVE_EXPONENT 1
+#endif
+#if !defined(U_MOUSE_MOVE_TIME)
+    #define U_MOUSE_MOVE_TIME 1500
+#endif
+#if !defined(U_MOUSE_MOVE_DELAY)
+    #define U_MOUSE_MOVE_DELAY 0
+#endif
+#if !defined(U_MOUSE_SCROLL_EXPONENT)
+    #define U_MOUSE_SCROLL_EXPONENT 1
+#endif
+#if !defined(U_MOUSE_SCROLL_TIME)
+    #define U_MOUSE_SCROLL_TIME 5000
+#endif
+#if !defined(U_MOUSE_SCROLL_DELAY)
+    #define U_MOUSE_SCROLL_DELAY 0
+#endif
+
 
 #define U_BTN1 &mkp MB1
 #define U_BTN2 &mkp MB2
