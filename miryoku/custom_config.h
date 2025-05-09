@@ -71,5 +71,12 @@ U_NP,              U_NP,              &kp K_APP,         &kp SPACE,         &kp 
 */
 
 // mouse speed up
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 3750
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 300
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 5000
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 500
+#define U_MOUSE_MOVE_EXPONENT 2
+#define U_MOUSE_MOVE_TIME 1500
+#define U_MOUSE_MOVE_DELAY 0
+#define U_MOUSE_SCROLL_EXPONENT 2
+#define U_MOUSE_SCROLL_TIME 1500
+#define U_MOUSE_SCROLL_DELAY 0
+
