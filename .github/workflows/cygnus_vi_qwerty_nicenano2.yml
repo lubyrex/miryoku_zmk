@@ -13,7 +13,7 @@ jobs:
       alphas: '["QWERTY"]'
       nav: '["vi"]'
       kconfig: '["CONFIG_ZMK_POINTING=y"]'
-      branches: '["default"]'
+      branches: '["zmkfirmware/zmk/v0.3"]'
       modules: '["default"]'
       custom_config: '["default"]'
       layers: '["default"]'
